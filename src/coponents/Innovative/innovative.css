@@ -1,0 +1,34 @@
+.sustain{
+    margin: 100px auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    flex-direction: row;
+}
+.innovate{
+    border-radius: 20%;
+}
+ .idea{
+    margin: 1%;
+    color:#676767;
+}
+@media (max-width:800px){
+    .explore{
+        flex-direction: column;
+    }
+    .innovate{
+        flex-basis: 100%;
+        margin: 15px;
+        width: 70%;
+    }
+    .innovation{
+        flex-basis: 100%;
+    }
+    .new{
+        font-size: 16px;
+    }
+    .idea{
+        font-size: 12px;
+    }
+}

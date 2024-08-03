@@ -1,0 +1,24 @@
+.fashion{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fashion img{
+width: 100%;
+border-radius: 10px;
+display: block;
+}
+.fashion{
+    flex-basis: 31%;
+}
+@media (max-width: 650px){
+    .fashion{
+        flex-direction: column;
+    }
+    .fashion1{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
